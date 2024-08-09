@@ -4,25 +4,24 @@ import { connect } from "cloudflare:sockets";
 
 // How to generate your own UUID:
 // [Windows] Press "Win + R", input cmd and run:  Powershell -NoExit -Command "[guid]::NewGuid()"
-let userID = "77a571fb-4fd2-4b37-8596-1b7d9728bb5c";
+let userID = "85ced984-e758-4a2b-9611-48056a4f0f78";
 
 const proxyIPs = ["proxy.xxxxxxxx.tk"]; //ts.hpc.tw edgetunnel.anycast.eu.org bestproxy.onecf.eu.org cdn-all.xn--b6gac.eu.org cdn.xn--b6gac.eu.org proxy.xxxxxxxx.tk
 const cn_hostnames = [''];
-let CDNIP = 'www.visa.com.sg'
-// http_ip
-let IP1 = 'www.visa.com'
-let IP2 = 'cis.visa.com'
-let IP3 = 'africa.visa.com'
-let IP4 = 'www.visa.com.sg'
-let IP5 = 'www.visaeurope.at'
+let CDNIP = 'www.nginx.com' // http_ip
+let IP1 = 'www.speedtest.net'
+let IP2 = 'www.f5.com'
+let IP3 = 'www.w3.org'
+let IP4 = 'www.cdnjs.com'
+let IP5 = 'www.namecheap.com'
 let IP6 = 'www.visa.com.mt'
 let IP7 = 'qa.visamiddleeast.com'
 
 // https_ip
-let IP8 = 'usa.visa.com'
-let IP9 = 'myanmar.visa.com'
-let IP10 = 'www.visa.com.tw'
-let IP11 = 'www.visaeurope.ch'
+let IP8 = 'www.branch.io'
+let IP9 = 'cloudflare-br-cdn.kwai.net'
+let IP10 = 'www.cpanel.net'
+let IP11 = 'www.go.inmobi.com'
 let IP12 = 'www.visa.com.br'
 let IP13 = 'www.visasoutheasteurope.com'
 
